@@ -1,0 +1,74 @@
+{
+  "jokes": [
+    {
+      "title": "Thief!",
+      "category": "cute puns",
+      "text": "What do you call a thieving alligator? A Crookodile",
+      "likes": 4,
+      "dislikes": 3
+    },
+    {
+      "title": "Maybee I Will, Maybee I Won’t!",
+      "category": "cute puns",
+      "text": "What do you call a bee that can’t make up its mind? A Maybe",
+      "likes": 92,
+      "dislikes": 3
+    },
+    {
+      "title": "HiYa!",
+      "category": "cute puns",
+      "text": "What do you call a pig that does karate? Pork chop",
+      "likes": 12,
+      "dislikes": 3
+    },
+    {
+      "title": "Nursing Math",
+      "category": "math jokes",
+      "text": "Never trust math teachers who use graph paper. They’re always plotting something.",
+      "likes": 38,
+      "dislikes": 3
+    },
+    {
+      "title": "Math Buddies",
+      "category": "math jokes",
+      "text": "Q: What do you call friends who love math? A: algebros",
+      "likes": 12,
+      "dislikes": 3
+    },
+    {
+      "title": "Monkeying Around",
+      "category": "computer jokes",
+      "text": "Did you hear about the monkeys who shared an Amazon account? They were Prime mates.",
+      "likes": 10,
+      "dislikes": 3
+    },
+    {
+      "title": "Beef It Up",
+      "category": "computer jokes",
+      "text": "Don’t use “beef stew” as a computer password. It’s not stroganoff.",
+      "likes": 98,
+      "dislikes": 3
+    },
+    {
+      "title": "Balloon Music",
+      "category": "music puns",
+      "text": "What kind of music are balloons afraid of? Pop Music",
+      "likes": 223,
+      "dislikes": 3
+    },
+    {
+      "title": "Musical Snake",
+      "category": "music puns",
+      "text": "What is the musical part of a snake? The scales.",
+      "likes": 10,
+      "dislikes": 3
+    },
+    {
+      "title": "Duvet Cover",
+      "category": "music puns",
+      "text": "Me and my friends are in a band called “Duvet”. We’re a cover band.",
+      "likes": 150,
+      "dislikes": 3
+    }
+  ]
+}

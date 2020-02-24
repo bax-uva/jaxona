@@ -1,0 +1,79 @@
+/* General */
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+button {
+  border: none;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Typography */
+body {
+  font-family: "Montserrat", sans-serif;
+}
+p,
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+}
+h1,
+h2,
+h3,
+h4 {
+  text-transform: uppercase;
+}
+
+/* Layout */
+nav,
+header,
+section,
+footer {
+  width: 100%;
+}
+.arrow-link {
+  display: flex;
+  align-items: center;
+}
+/* Colors */
+:root {
+  --dark-bg: #303030;
+  --light-bg: #f9f9f9;
+  --cherry-bg: #ff5b5b;
+  --pastel-orange-bg: #ff915b;
+  --pale-orange-bg: #ffbe5b;
+  --light-gold-bg: #ffdf5b;
+  --kiwi-green-bg: #8fe360;
+  --weird-green-bg: #57e690;
+  --cyan-bg: #57dbe6;
+  --bege-border: #d1bb91;
+  --white-border: #ecebe9;
+  --white-txt: #ffffff;
+  --bege-txt: #cfb995;
+  --light-grey-txt: #b2b2b2;
+  --dark-grey-txt: #5e5e5e;
+  --var-faded-red: #ce2c40;
+  --var-light-forest-green: #46915d;
+  --var-macaroni-and-cheese: #f3a536;
+  --var-dodger-blue: #36aef3;
+  --var--tomato: #f33636;
+}
+
+.arrow-link {
+  align-items: center;
+  color: var(--bege-txt);
+}
+
+/* Effects */
+/* Media Queries */
+/* Accessibility */
