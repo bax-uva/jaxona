@@ -3,6 +3,7 @@ body {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  background: var(--creamy);
 }
 ul {
   list-style: none;
@@ -47,6 +48,9 @@ footer {
 }
 /* Colors */
 :root {
+  --creamy: #fffffa;
+  --leafy: #63b54d;
+  --tomatoey: #f33636;
   --dark-bg: #303030;
   --light-bg: #f9f9f9;
   --cherry-bg: #ff5b5b;
@@ -66,7 +70,6 @@ footer {
   --var-light-forest-green: #46915d;
   --var-macaroni-and-cheese: #f3a536;
   --var-dodger-blue: #36aef3;
-  --var--tomato: #f33636;
 }
 
 .arrow-link {

@@ -9,8 +9,8 @@
 }
 .top-5-feed {
   flex-grow: 1;
-  background: var(--white-txt);
-  border: 1px solid var(--white-border);
+  background: var(--creamy);
+  border: 1px solid var(--leafy);
   font-size: 15px;
 }
 .top-5-feed h3 {
@@ -59,8 +59,9 @@
   align-items: flex-end;
 }
 .arrow-link {
+  background: var(--creamy);
   text-transform: uppercase;
-  border: 1px solid var(--white-border);
+  border: 1px solid var(--leafy);
   height: 40px;
   font-weight: 600;
   cursor: pointer;

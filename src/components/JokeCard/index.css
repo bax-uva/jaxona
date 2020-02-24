@@ -3,8 +3,8 @@
   align-items: center;
   height: 264px;
   border-radius: 2px;
-  background-color: var(--white-txt);
-  border: solid 1px var(--white-border);
+  background-color: var(--creamy);
+  border: solid 1px var(--leafy);
   text-align: left;
   overflow: scroll;
   transition: box-shadow 0.2s linear;

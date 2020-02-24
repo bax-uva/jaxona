@@ -7,9 +7,9 @@ nav,
   display: flex;
 }
 nav {
-  background-color: var(--dark-bg);
+  background-color: var(--creamy);
   height: 60px;
-  color: var(--white-txt);
+  color: var(--tomatoey);
   justify-content: center;
 }
 .nav-wrapper {
@@ -18,12 +18,15 @@ nav {
   justify-content: space-between;
   width: 90%;
 }
+.nav-brand {
+  width: 50px;
+}
 .nav-menu {
   font-weight: 600;
   border-radius: 2px;
   width: 50%;
-  border-left: 5px solid var(--bege-border);
-  background-color: var(--dark-bg);
+  border: 1px solid var(--leafy);
+  background-color: var(--creamy);
   top: 59px;
   right: 0;
   position: absolute;
@@ -31,8 +34,10 @@ nav {
 .nav-menu ul {
   justify-content: space-between;
   align-items: center;
+  border: 1px solid var(--leafy);
 }
 .nav-menu ul li {
+  border: 1px solid var(--leafy);
   justify-content: space-around;
   align-items: center;
   height: 60px;
@@ -56,8 +61,8 @@ ul {
   fill: white;
 }
 .submenu {
-  background: var(--white-txt);
-  color: var(--dark-grey-txt);
+  background: var(--creamy);
+  color: var(--tomatoey);
   flex-direction: column;
   align-content: center;
   justify-content: center;
@@ -100,7 +105,7 @@ ul {
     background: transparent;
     width: 60%;
     position: inherit;
-    border: none;
+    border: var(--leafy);
   }
   .nav-menu ul {
     flex-direction: row;
@@ -138,7 +143,7 @@ ul {
     flex-direction: column;
   }
   .submenu li:not(:first-child) {
-    border-top: 1px solid var(--white-border);
+    border-top: 1px solid var(--leafy);
   }
   .submenu ul li:hover {
     background-color: inherit;

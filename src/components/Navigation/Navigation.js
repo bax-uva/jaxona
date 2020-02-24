@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.css";
-import logo from "../../assets/logo-horizontal-1.png";
+import logo from "../../assets/logo.png";
 
 const Navigation = props => {
   const [menuVisibility, setMenuVisibility] = React.useState(false);

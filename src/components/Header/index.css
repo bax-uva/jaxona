@@ -1,6 +1,6 @@
 header {
   height: 320px;
-  background-image: url("../../assets/bitmap.png");
+  background-image: url("../../assets/bg.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,7 +13,7 @@ header {
 
 .first-main-title {
   text-transform: capitalize;
-  color: var(--bege-txt);
+  color: var(--tomatoey);
   font-weight: normal;
   font-size: 48px;
   line-height: 1.5;
@@ -30,7 +30,7 @@ input {
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
   color: var(--light-grey-txt);
-  border: 1px solid white;
+  border: 1px solid var(--leafy);
   background: transparent;
   width: 40%;
   min-width: 200px;

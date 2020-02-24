@@ -8,7 +8,7 @@ section,
 
 section {
   flex-direction: column;
-  background-color: var(--light-bg);
+  background-color: var(--creamy);
   align-items: center;
 }
 .categories-wrapper {
@@ -32,13 +32,6 @@ section {
 .feed-wrapper {
   flex-direction: column;
   width: 90%;
-}
-hr {
-  background-color: var(--white-border);
-  height: 2px;
-  width: 100%;
-  margin: 0;
-  border: none;
 }
 .jokes-wrapper {
   margin-bottom: 58px;
@@ -70,7 +63,7 @@ hr {
   justify-content: center;
   color: var(--bege-txt);
   background: transparent;
-  border: 1px solid var(--bege-border);
+  border: 1px solid var(--leafy);
 }
 
 @media only screen and (max-device-width: 1024px) {
