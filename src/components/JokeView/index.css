@@ -9,8 +9,8 @@
 }
 .top-5-feed {
   flex-grow: 1;
+  border: 2px solid var(--leafy);
   background: var(--creamy);
-  border: 1px solid var(--leafy);
   font-size: 15px;
 }
 .top-5-feed h3 {
@@ -89,26 +89,16 @@
   margin-top: 8px;
 }
 .stat-button {
+  padding-bottom: 20px;
+  background: transparent;
+  font-size: 30px;
   height: 40px;
   width: 40px;
   border-radius: 100%;
   cursor: pointer;
 }
-.positive-stat {
-  background: green;
-}
 .positive {
   margin-right: 1em;
-}
-.positive-stat:hover {
-  background: var(--var-light-forest-green);
-}
-.negative-stat {
-  transform: rotate(180deg);
-  background: red;
-}
-.negative-stat:hover {
-  background: var(--var-faded-red);
 }
 .stats {
   display: flex;
@@ -163,13 +153,8 @@
     flex-direction: column;
   }
   .top-5-feed {
-    border: 2px solid var(--leafy);
     border-radius: 2px;
     margin-top: 2em;
     padding-bottom: 1em;
-  }
-  .stat-button {
-    width: 30px;
-    height: 30px;
   }
 }

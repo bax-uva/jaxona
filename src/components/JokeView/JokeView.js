@@ -59,6 +59,18 @@ const JokeView = props => {
                 <p>{chosenJoke.text}</p>
               </div>
             </div>
+            <div className="joke-footer">
+              <div className="stats">
+                <div className="stat positive">
+                  <button className="stat-button positive-stat">+</button>
+                  {chosenJoke.likes}
+                </div>
+                <div className="stat negative">
+                  <button className="stat-button negative-stat">-</button>
+                  {chosenJoke.dislikes}
+                </div>
+              </div>
+            </div>
           </div>
           <aside className="top-5-feed">
             <div className="top-feed-wrapper">
