@@ -19,7 +19,7 @@ const JokeCard = props => {
           .toLowerCase()}`}
         className="stats-link"
       >
-        See stats
+        See joke info
       </Link>
     </div>
   );

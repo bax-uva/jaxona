@@ -17,8 +17,8 @@ nav {
   justify-content: space-between;
   width: 90%;
 }
-.nav-brand {
-  width: 50px;
+.nav-brand img {
+  width: 65px;
 }
 .nav-menu {
   font-weight: 600;

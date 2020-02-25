@@ -18,16 +18,10 @@ header {
   font-weight: normal;
   font-size: 92px;
   line-height: 1.5;
-  /* font-family: "Caveat"; */
-  /* font-family: "Permanent Marker"; */
-  /* font-family: "Knewave"; */
-  /* font-family: "Carter One"; */
-  /* font-family: "Bungee Inline"; */
   font-family: "Freckle Face";
-  /* font-family: "Slackey"; */
 }
 .second-main-title {
-  font-size: 22px;
+  font-size: 40px;
   text-transform: capitalize;
   line-height: 1.45;
 }
@@ -50,8 +44,9 @@ input {
     font-size: 14px;
   }
   .second-main-title {
-    font-size: 13px;
+    font-size: 20px;
     margin-top: 0;
+    font-weight: 300;
   }
   .first-main-title {
     margin-bottom: 5px;

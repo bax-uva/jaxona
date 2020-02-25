@@ -7,7 +7,7 @@ import WebFont from "webfontloader";
 
 WebFont.load({
   google: {
-    families: ["Open Sans:300,400", "Freckle Face", "sans-serif"]
+    families: ["Open Sans:300,400", "Freckle Face"]
   }
 });
 
