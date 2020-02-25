@@ -1,12 +1,16 @@
 .cute-puns {
-  background: var(--pastel-orange-bg);
+  background: var(--creamy);
 }
 .math-jokes {
-  background: var(--weird-green-bg);
+  background: var(--creamy);
 }
 .computer-jokes {
-  background: var(--cyan-bg);
+  background: var(--creamy);
 }
 .music-puns {
-  background: var(--light-gold-bg);
+  background: var(--creamy);
+}
+button {
+  border: 2px solid var(--leafy);
+  border-radius: 2px;
 }

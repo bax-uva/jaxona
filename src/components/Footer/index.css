@@ -6,12 +6,9 @@ footer,
 }
 
 footer {
+  border-top: 2px solid var(--leafy);
   height: 194px;
   width: 100%;
-  background-image: url("../../assets/bg.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .submit-wrapper {
@@ -23,11 +20,9 @@ footer {
 .submit-wrapper h3 {
   font-size: 16px;
   line-height: 1.43;
-  color: var(--white-txt);
   margin-bottom: 13px;
 }
 .submit-wrapper h4 {
-  color: var(--bege-txt);
   display: flex;
   align-items: center;
 }

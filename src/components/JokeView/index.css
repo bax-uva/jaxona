@@ -43,11 +43,7 @@
 .joke-detail h3 {
   text-transform: capitalize;
   font-size: 40px;
-  color: var(--bege-txt);
   line-height: 60px;
-}
-.top-5-feed {
-  color: var(--black-two);
 }
 .top-5-feed h3 {
   font-size: 15px;
@@ -98,7 +94,6 @@
   background: green;
 }
 .positive {
-  color: green;
   margin-right: 1em;
 }
 .positive-stat:hover {
@@ -107,9 +102,6 @@
 .negative-stat {
   transform: rotate(180deg);
   background: red;
-}
-.negative {
-  color: red;
 }
 .negative-stat:hover {
   background: var(--var-faded-red);
@@ -129,9 +121,7 @@
   padding: 0 0.5em 0 0.5em;
   font-size: 12px;
   text-transform: uppercase;
-  border-radius: 11px;
   font-weight: 600;
-  color: var(--white-txt);
 }
 .category-tag span {
   padding-right: 6px;
@@ -139,15 +129,6 @@
 .tag {
   text-transform: uppercase;
   font-weight: 600;
-}
-.trending-tag {
-  color: var(--var-macaroni-and-cheese);
-}
-.popular-tag {
-  color: var(--var-dodger-blue);
-}
-.epic-tag {
-  color: var(--var--tomato);
 }
 
 @media only screen and (max-device-width: 824px) {

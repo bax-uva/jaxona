@@ -39,8 +39,8 @@ const Navigation = props => {
           }`}
         >
           <ul>
-            <li>SO FUNKTIONIERT’S</li>
-            <li>SONDERANGEBOTE</li>
+            <li>About</li>
+            <li>Specials</li>
             <li
               onMouseOver={() => toggleSubMenu()}
               onMouseOut={() => toggleSubMenu()}
@@ -58,7 +58,7 @@ const Navigation = props => {
                   d="M8 8c2.2 0 4-1.8 4-4s-1.8-4-4-4-4 1.8-4 4 1.8 4 4 4zm0 2c-2.65 0-8 1.35-8 4v2h16v-2c0-2.65-5.35-4-8-4z"
                 />
               </svg>
-              MEIN BEREICH
+              My Account
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"

@@ -1,6 +1,6 @@
 header {
   height: 320px;
-  background-image: url("../../assets/bg.png");
+  /* background-image: url("../../assets/bg.png"); */
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -9,34 +9,38 @@ header {
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  border-bottom: 2px solid var(--leafy);
 }
 
 .first-main-title {
   text-transform: capitalize;
   color: var(--tomatoey);
   font-weight: normal;
-  font-size: 48px;
+  font-size: 92px;
   line-height: 1.5;
+  /* font-family: "Caveat"; */
+  /* font-family: "Permanent Marker"; */
+  /* font-family: "Knewave"; */
+  /* font-family: "Carter One"; */
+  /* font-family: "Bungee Inline"; */
+  font-family: "Freckle Face";
+  /* font-family: "Slackey"; */
 }
 .second-main-title {
   font-size: 22px;
-  color: var(--white-txt);
   text-transform: capitalize;
   line-height: 1.45;
 }
 
 input {
   margin-top: 45px;
-  font-family: "Montserrat", sans-serif;
   font-size: 15px;
-  color: var(--light-grey-txt);
   border: 1px solid var(--leafy);
   background: transparent;
   width: 40%;
   min-width: 200px;
   height: 48px;
-  border-radius: 4px;
-  background-image: url("../../assets/search-copy.png");
+  /* background-image: url("../../assets/search-copy.png"); */
   background-repeat: no-repeat;
   background-position: right;
   padding: 5px 30px 5px 15px;

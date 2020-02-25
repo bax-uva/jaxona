@@ -2,9 +2,9 @@
   flex-direction: column;
   align-items: center;
   height: 264px;
-  border-radius: 2px;
   background-color: var(--creamy);
-  border: solid 1px var(--leafy);
+  border: solid 2px var(--leafy);
+  border-radius: 2px;
   text-align: left;
   overflow: scroll;
   transition: box-shadow 0.2s linear;
@@ -27,10 +27,8 @@
   flex-direction: column;
   width: 95%;
   font-size: 14px;
-  color: var(--dark-grey-txt);
 }
 .stats-link {
-  color: var(--bege-txt);
   text-transform: uppercase;
   font-weight: 600;
   display: flex;

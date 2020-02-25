@@ -21,10 +21,9 @@ section {
   margin: 61px 0 41px 0;
 }
 .category {
+  color: var(--tomatoey);
   font-size: 14px;
   text-transform: uppercase;
-  border-radius: 2px;
-  color: var(--white-txt);
   font-weight: 600;
   cursor: pointer;
 }
@@ -44,16 +43,16 @@ section {
 }
 
 .chosen-category {
+  text-decoration: underline;
+  text-decoration-color: var(--tomatoey);
   align-items: center;
   text-transform: uppercase;
-  font-size: 12px;
+  font-size: 16px;
   font-weight: 600;
-  color: white;
   text-align: center;
   padding: 0.5em;
   width: auto;
   height: 22px;
-  border-radius: 18px;
   align-self: flex-start;
   margin-bottom: 17px;
 }
@@ -61,7 +60,6 @@ section {
 .view-all {
   display: flex;
   justify-content: center;
-  color: var(--bege-txt);
   background: transparent;
   border: 1px solid var(--leafy);
 }

@@ -14,12 +14,13 @@ a {
 }
 button {
   border: none;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
 /* Typography */
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  color: var(--gray);
 }
 p,
 h1,
@@ -49,27 +50,9 @@ footer {
 /* Colors */
 :root {
   --creamy: #fffffa;
-  --leafy: #63b54d;
+  --leafy: #7dee58;
   --tomatoey: #f33636;
-  --dark-bg: #303030;
-  --light-bg: #f9f9f9;
-  --cherry-bg: #ff5b5b;
-  --pastel-orange-bg: #ff915b;
-  --pale-orange-bg: #ffbe5b;
-  --light-gold-bg: #ffdf5b;
-  --kiwi-green-bg: #8fe360;
-  --weird-green-bg: #57e690;
-  --cyan-bg: #57dbe6;
-  --bege-border: #d1bb91;
-  --white-border: #ecebe9;
-  --white-txt: #ffffff;
-  --bege-txt: #cfb995;
-  --light-grey-txt: #b2b2b2;
-  --dark-grey-txt: #5e5e5e;
-  --var-faded-red: #ce2c40;
-  --var-light-forest-green: #46915d;
-  --var-macaroni-and-cheese: #f3a536;
-  --var-dodger-blue: #36aef3;
+  --gray: #4f4f4f;
 }
 
 .arrow-link {
