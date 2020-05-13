@@ -25,7 +25,6 @@ const JokesFeed = props => {
               filterJokes={filterJokes}
             />
           ))}
-          <button className="category view-all">View All</button>
         </div>
         {chosenCategory ? (
           <div
